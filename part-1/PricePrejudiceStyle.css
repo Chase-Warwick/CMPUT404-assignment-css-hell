@@ -1,7 +1,18 @@
 body {
+    background-color: rgb(10, 43, 92);
+    color: whitesmoke;
+    font-family: 'Crimson Text', 'Times New Roman', Times, serif;
+    font-size: 150%;
     margin-left: 20%;
     margin-right: 20%;
     text-align: justify
+    }
+
+.inner-links{
+    margin: auto;
+    width: 50%;
+    padding-left:19.4em;
+    text-align: center;
     }
 h1, h2 {
     text-align: center;
@@ -29,8 +40,11 @@ h2 {
     }
 /* for epubs */
 div.chapter {
+    border-style: double;
+    border-color: gold;
     page-break-before: always;
-    margin-top: 4em
+    margin-top: 4em;
+    padding: 2em 2em 2em 2em;
     }
 hr {
     width: 80%;
