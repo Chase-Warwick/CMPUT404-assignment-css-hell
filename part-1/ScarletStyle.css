@@ -23,6 +23,10 @@ td.rightalign {
     text-align: right
     }
 body {
+    background-color: #420516;
+    color:#FDD2BF;
+    font-family: 'Kalam';
+    font-size: 150%;
     margin-left: 10%;
     margin-right: 10%
     }
