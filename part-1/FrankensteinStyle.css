@@ -1,5 +1,6 @@
 body {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Tangerine', cursive;
+    font-size: 150%;
     margin-left: 20%;
     margin-right: 20%;
     background-color: rgb(212, 182, 143);
@@ -49,11 +50,13 @@ hr {
     margin-bottom: 2em
     }
 p {
+    font-size: 150%;
     text-indent: 1em;
     margin-top: 0.25em;
     margin-bottom: 0.25em
     }
 p.poem {
+    font-family: 'Times New Roman', Times, serif;
     text-indent: 0%;
     margin-left: 10%;
     font-size: 150%;
@@ -61,7 +64,7 @@ p.poem {
     margin-bottom: 1em
     }
 p.letter {
-    font-family: s;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 125%;
     text-indent: 0%;
     margin-top: 1.5em;
@@ -69,7 +72,7 @@ p.letter {
     margin-right: 10%
     }
 p.letter2 {
-    font-family: sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     text-align: center;
     margin-top: 1em;
     margin-bottom: 1em
