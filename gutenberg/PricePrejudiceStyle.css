@@ -8,6 +8,11 @@ body {
     text-align: justify
     }
 
+img {
+    border-style: solid;
+    border-color: black;
+}
+
 .inner-links{
     margin: auto;
     width: 50%;
