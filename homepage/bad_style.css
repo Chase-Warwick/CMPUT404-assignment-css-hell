@@ -1,0 +1,89 @@
+body {
+    background-color: red;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    text-align: center;
+}
+
+#navbar {
+    animation: flyIn 5s 1;
+    background-color: darkgoldenrod;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    overflow: hidden;
+    font-family: 'Monoton';
+    font-size: 150%;
+    list-style: none;
+}
+
+.navbar-element-link {
+    margin: 0.25em;
+}
+
+#portrait:hover {
+    animation: rotateABit 4s 1;
+}
+
+@keyframes pulse{
+    50% {
+        transform: scale(150%);
+    }
+    100%{
+        transform: scale(100%);
+    }
+}
+
+@keyframes flyIn{
+    0%{
+        transform: translateX(-100%)
+    }
+    50%{
+        transform: translateX(100%)
+    }
+    100%{
+        transform: translateX(0%)
+    }
+}
+
+@keyframes rotateABit{
+    33%{
+        transform: rotateY(360deg)
+    }
+    66%{
+        transform: rotateX(180deg)
+    }
+}
+
+#about-me {
+    font-family: 'Codystar';
+    font-size: 150%;
+    background-color: rebeccapurple;
+    color: whitesmoke;
+}
+
+#professional-history {
+    font-family: 'Megrim';
+    font-size: 150%;
+    background-color: pink;
+    color:rebeccapurple;
+}
+
+#professional-history:hover{
+    animation: pulse 1s 2;
+}
+
+#skills {
+    font-family: 'Vast Shadow';
+    font-size: 150%;
+    background-color: turquoise;
+    color: black;
+}
+
+#know-about-me {
+    font-family: 'Monofett';
+    font-size: 150%;
+    background-color: royalblue;
+    color: white;
+}
