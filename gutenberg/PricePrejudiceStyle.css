@@ -1,11 +1,25 @@
 body {
-    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(10, 43, 92);
+    color: whitesmoke;
+    font-family: 'Crimson Text', 'Times New Roman', Times, serif;
+    font-size: 150%;
     margin-left: 20%;
     margin-right: 20%;
-    background-color: rgb(212, 182, 143);
-    text-align: justify;
+    text-align: justify
     }
-h1, h2, h3, h4, h5 {
+
+img {
+    border-style: solid;
+    border-color: black;
+}
+
+.inner-links{
+    margin: auto;
+    width: 50%;
+    padding-left:19.4em;
+    text-align: center;
+    }
+h1, h2 {
     text-align: center;
     font-style: normal;
     font-weight: normal;
@@ -14,7 +28,7 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 0.5em
     }
 h1 {
-    font-size: 500%;
+    font-size: 300%;
     margin-top: 0.6em;
     margin-bottom: 0.6em;
     letter-spacing: 0.12em;
@@ -22,26 +36,20 @@ h1 {
     text-indent: 0
     }
 h2 {
-    font-size: 300%;
+    font-size: 150%;
     margin-top: 2em;
     margin-bottom: 1em
-    }
-h3 {
-    font-size: 260%;
-    margin-top: 1em
-    }
-h4 {
-    font-size: 240%
-    }
-h5 {
-    font-size: 205%
     }
 .no-break {
     page-break-before: avoid
     }
+/* for epubs */
 div.chapter {
+    border-style: double;
+    border-color: gold;
     page-break-before: always;
-    margin-top: 4em
+    margin-top: 4em;
+    padding: 2em 2em 2em 2em;
     }
 hr {
     width: 80%;
@@ -53,24 +61,13 @@ p {
     margin-top: 0.25em;
     margin-bottom: 0.25em
     }
-p.poem {
-    text-indent: 0%;
-    margin-left: 10%;
-    font-size: 150%;
-    margin-top: 1em;
-    margin-bottom: 1em
+.p2 {
+    margin-top: 2em
     }
 p.letter {
-    font-family: s;
-    font-size: 125%;
     text-indent: 0%;
-    margin-top: 1.5em;
-    margin-left: 10%;
-    margin-right: 10%
-    }
-p.letter2 {
-    font-family: sans-serif;
-    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
     margin-top: 1em;
     margin-bottom: 1em
     }
@@ -80,8 +77,12 @@ p.right {
     margin-top: 1em;
     margin-bottom: 1em
     }
-p.noindent {
-    text-indent: 0%
+div.fig {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em
     }
 a:link {
     color: blue;
@@ -94,50 +95,54 @@ a:visited {
 a:hover {
     color: red
     }
-div.c14 {
+div.c16 {
+    text-align: left
+    }
+div.c15 {
     margin-left: 0.7em
     }
-div.c13 {
+div.c14 {
     text-indent: -0.7em
     }
-div.c12 {
+div.c13 {
     display: block;
     font-size: 1.1em;
     margin: 1em 0;
     font-weight: bold
     }
-div.c11 {
+div.c12 {
     margin: 0.83em 0;
     font-size: 1.1em;
     text-align: center
     }
-span.c10 {
+span.c11 {
     font-size: smaller
     }
-div.c9 {
-    display: block;
-    margin: 1em 0
-    }
-div.c8 {
+div.c10 {
     display: block;
     margin-top: 4em
+    }
+div.c9 {
+    width: 60%
+    }
+img.c8 {
+    width: 100%
     }
 table.c7 {
     margin-right: auto;
     margin-left: auto
     }
-div.c6 {
+span.xhtml_big.c6 {
+    font-weight: bold
+    }
+div.c5 {
     margin-top: 2em;
     margin-bottom: 4em
     }
-div.c5 {
+div.c4 {
     display: block;
     margin-left: 2em;
     text-indent: -2em
-    }
-div.c4 {
-    display: block;
-    margin: 1em 0
     }
 div.c3 {
     display: block;
